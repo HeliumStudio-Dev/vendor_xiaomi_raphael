@@ -8211,6 +8211,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libSNPE.so",
             ],
             shared_libs: [
+                "libsymphony-cpu",
                 "libdl",
                 "liblog",
                 "libc++_shared",
@@ -13188,6 +13189,31 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsymphony-cpu",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsymphony-cpu.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++_shared",
+                "libm",
+                "libdl",
+                "libc",
             ],
         },
     },
@@ -19893,6 +19919,34 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libmdmdetect",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "remosaic_daemon",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/remosaic_daemon",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libbinder",
+                "libremosaic_daemon",
                 "libc++",
                 "libc",
                 "libm",

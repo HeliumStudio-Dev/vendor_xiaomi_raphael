@@ -697,6 +697,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libtinyxml2_1 \
     libtriplecam_optical_zoom_control \
+    libsymphony-cpu \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
     libtzdrmgenprov \
