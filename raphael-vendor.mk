@@ -296,10 +296,8 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     android.hardware.gnss@2.1-impl-qti \
-    audio.primary.raphael \
     sound_trigger.primary.msmnile \
     vendor.qti.hardware.alarm@1.0-impl \
-    vendor.qti.hardware.audiohalext@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.xiaomi.hardware.motor@1.0-impl \
     vulkan.adreno \
@@ -310,14 +308,9 @@ PRODUCT_PACKAGES += \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
-    libadiertac \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libaudcal \
-    libaudio_log_utils \
-    libaudioconfigstore \
-    libaudioroute_ext \
     libbatching \
     libc2d30_bltlib \
     libcapiv2svacnn \
@@ -351,7 +344,6 @@ PRODUCT_PACKAGES += \
     libnpu \
     libqrtr \
     libqsocket \
-    libqtigef \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -359,7 +351,6 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
-    libssrec \
     libsysmon_cdsp_skel \
     libthermalclient \
     libvppclient \
@@ -377,20 +368,28 @@ PRODUCT_PACKAGES += \
     libqcvirt \
     libshoebox \
     vendor.qti.hardware.alarm@1.0 \
-    vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
+    audio.primary.raphael \
+    vendor.qti.hardware.audiohalext@1.0-impl \
     libFileMux_proprietary \
+    libadiertac \
     libadm \
     libadpcmdec \
+    libaudcal \
+    libaudio_log_utils \
+    libaudioconfigstore \
+    libaudioroute_ext \
     libfastcrc \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libqcodec2 \
+    libqtigef \
     libsmwrapper \
+    libssrec \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -409,6 +408,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_proprietary \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
+    vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     libxlog \
     android.hardware.secure_element@1.0-impl \
