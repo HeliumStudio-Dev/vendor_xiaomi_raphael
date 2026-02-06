@@ -305,9 +305,6 @@ PRODUCT_PACKAGES += \
     libCB \
     libOpenCL \
     libVkLayer_q3dtools \
-    libacdb-fts \
-    libacdbloader \
-    libacdbrtac \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
@@ -376,6 +373,9 @@ PRODUCT_PACKAGES += \
     audio.primary.raphael \
     vendor.qti.hardware.audiohalext@1.0-impl \
     libFileMux_proprietary \
+    libacdb-fts \
+    libacdbloader \
+    libacdbrtac \
     libadiertac \
     libadm \
     libadpcmdec \
