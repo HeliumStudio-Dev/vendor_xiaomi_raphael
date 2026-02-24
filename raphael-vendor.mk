@@ -583,6 +583,7 @@ PRODUCT_PACKAGES += \
     libminksocket \
     libmlipay \
     libmlipay@1.1 \
+    libmmosal_vendor \
     libmpbase \
     libnanopb \
     libnetmgr \
